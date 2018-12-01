@@ -1,0 +1,311 @@
+/*///////////////////////////////////////////most use div style //////////////////////////*/
+
+*{
+margin:0;
+padding:0;
+box-sizing: border-box; 
+color: #008eff;
+    
+}
+body{
+    text-transform: capitalize;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.container{
+    width: 900px;
+    margin: auto;   
+}
+.text-center{
+    text-align: center;
+}
+.active{
+      background-color:rgba(0, 142, 255, 0.8)  ;
+     box-shadow:0 2px 5px 2px #7e7e98; 
+       color:#FFF;
+    
+}
+/*///////////////////////////////////////////end buty div//////////////////////////*/
+
+/*///////////////////////////////////////////start header style //////////////////////////*/
+.title{
+    
+    width: 100%;
+    padding: 15px;
+    border-bottom: 1px solid #c2d7f8;
+}
+.slogo ,.logo ,.minu{
+    font-size: 20px;
+}
+
+.minu{
+    font-size: 15px;
+    float: right;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow:  0 1px 10px 1px #bdbdd6;
+    background-color:#d9e3f8;
+    cursor: pointer;
+    transition:.5s ease;
+}
+.minu:hover {
+    background-color:rgba(0, 142, 255, 0.8)  ;
+     box-shadow:0 2px 5px 2px #7e7e98; 
+       color:#FFF;
+    }
+
+
+
+/*/// header-->mid mid div style ////*/
+.mid{
+    margin:20% 0 0 0 ;
+}
+
+.mid p{
+    line-height: 20px;
+    color:#2196f3;
+    margin-bottom:  20px ;
+}
+
+ul {
+    list-style: none;
+     margin: 50px  auto;
+
+}
+
+   
+
+ul li{
+    padding: 50px 20px;
+    display: inline;
+}
+.mid ul li span{
+    color:#008eff;
+   box-shadow:  0 1px 10px 1px #bdbdd6;
+    background-color:#d9e3f8;
+    border-radius:10px;
+    padding: 5px 30px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size:14pt;
+    transition:.5s ease;
+    
+}
+
+   .mid ul li span:hover {
+    background-color:rgba(0, 142, 255, 0.8)  ;
+     box-shadow:0 2px 5px 2px #7e7e98; 
+       color:#FFF;
+    }
+
+.kan{
+    background-color: rgba(5, 0, 29, 0.85);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+/*///////////////////////////////////////////end header style /////////////////////////////////////////*/
+
+
+/*///////////////////////////////////////////start  form logi sign up  style //////////////////////////*/
+
+
+html{
+    overflow-y:
+}
+
+
+
+.cont{
+    
+    margin:0 auto;
+    padding:50px;
+    width: 600px;
+    background-color:#fff;
+    border-radius: 5px;
+    box-shadow:0 4px 50px 4px rgba(177, 177, 177, 0.44);
+}
+
+
+.cont h1 {
+    font-size: 40px;
+    color: #008eff;
+    text-align: center;
+    margin: 0.67em 0;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+
+input{
+    font-size: 25px;
+    width:100%;
+    padding-left:10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    border:2px solid rgba(0, 142, 255, 0.25);
+    color:#008eff ;
+}
+.cont ::-webkit-input-placeholder{
+    font-size:20px ;
+    color: rgba(0, 142, 255, 0.45);
+    
+}
+.names-one ,.names-two{
+    width:47.5%;
+   float: left;
+    
+}
+.names-one{
+   margin-right:5%;
+    
+}
+
+
+.button {
+  border:0;
+  outline:none;
+  border-radius:0;
+  padding:15px 0;
+  font-size:2rem;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  color:#FFF;
+  transition:all.5s ease;
+ appearance: none;
+       background:#008eff;
+      width: 100%;
+      display: block;
+}
+ .button:hover , .button:focus {
+ background-color:#2ba0fd;
+     cursor: pointer;
+       color:#FFF;
+  }
+/*///////////////////////////////////////////end  form logi sign up  style //////////////////////////*/
+
+form {
+
+    margin:50px 0 0 0 ;
+}
+.signup ,.login {
+    display: none;
+}
+/*/////////////////////////////////////////// about us div style////////////////////////*/
+.aboutus{
+    padding:10px 0 0 0 ;
+}
+ .info,.imginf{
+    float: left;
+    width: 50%;
+    height:315px;
+    
+   
+}
+.aboutus .imginf{
+    background: #73797f
+}
+.aboutus .info {
+     padding: 50px 0 0 50px;
+}
+.info h2{
+    line-height: 100px;
+     color:rgba(31, 40, 53, 0.8)   ;
+}
+.info p {
+   line-height: 20px;
+    font-size: 10pt;
+    color:#7a8696
+}
+.info .spaninf{
+        padding: 2px auto;
+        line-height: 100px;
+        font-size: 12pt;
+        font-weight: bold;
+        transition:.5s ease;
+       
+}
+.info .spaninf:hover{
+    cursor: pointer;    
+}
+.info .hide{
+    display: none;
+}
+
+
+/* ////////////////////////////////////////////////////////*/
+.sale{
+ width: 100%;
+    height: 400px;
+ margin: 50px 0;
+
+}
+.sale h1{
+ line-height: 100px;
+    color:rgba(31, 40, 53, 0.8)   
+}
+.sale .salepro{
+    width: 21%;
+    margin:0 .5%;
+    margin-bottom: 50px;
+    float: left;
+    border: 1px solid rgba(162, 162, 162, 0.3);
+    transition:.5s ease;
+}
+.imgpro{
+    width: 80%;
+    margin: 30px auto;
+    height: 100px;
+    background-color:#73797f 
+        
+}
+.salepro:hover{
+    border:none;
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 1px 10px 0 rgba(162, 162, 162, 0.3);
+}
+.salepro h5{
+        color:rgba(31, 40, 53, 0.9) ;
+}
+.salepro p{
+     color:rgba(31, 40, 53, 0.5) ;
+    line-height:40px;
+    font-size: 10pt;
+}
+.salepro span{
+   color:rgba(31, 40, 53, 0.9) ;
+   line-height: 50px;
+    font-size: 12pt;
+padding-bottom: 50px;
+}
+.nbar{
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+}
+.next,.back{
+
+   
+    padding:10px;
+    margin: 20px;
+    transition: .5 ease;
+    color: #fff;
+    background-color: #008eff;
+   
+    
+   
+}
+.next:hover,.back:hover{
+    cursor: pointer;
+    box-shadow:0 1px 5px 1px  rgb(74, 74, 74);
+
+}
+.popa{
+  display:none;
+    
+}
